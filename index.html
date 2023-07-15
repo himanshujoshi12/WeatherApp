@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main_head">
+        <img src="/Images/snowflake (1).png"/>
+        <h1>Explore</h1>
+        <h1 class="Weather">Weather Wonders</h1>
+    </div>
+    <div class="container">
+        <h1>Find your City's Climate!</h1>
+        <form action="">
+        <input type="text" placeholder="Enter your city" id="city" required>
+        <button id="sub" onclick="show()">Search</button>
+    </form>
+    </div>
+    <div id="card">
+        <div class="card_left">
+             <div> Temperature : 
+                <span id="tempSearch"></span>
+            </div> 
+        </div>
+        <div class="card_right">         
+        </div>
+    </div>
+    <h1 class="heading">Temperature of Some common cities </h1>
+    <div class="common_cities">   
+        <div class="Ccity">
+            <div id="temperatureNainital">
+                <h2>Nainital</h2>
+                <p>Temperature: <span id="tempNainital"></span></p>
+            </div>
+        </div>
+        <div class="Ccity">
+            <div id="temperatureLucknow">
+                <h2>Lucknow</h2>
+                <p>Temperature: <span id="tempLucknow"></span></p>
+              </div>
+        </div>
+        <div class="Ccity">
+            <div id="temperatureDelhi">
+                <h2>Delhi</h2>
+                <p>Temperature: <span id="tempDelhi"></span></p>
+              </div>
+        </div>
+    </div>
+    <div class="foot">
+        <img src="/Images/up-arrow.png" alt="">
+        <h1>Stay Ahead of Mother Nature</h1>
+        <p>Ready to Experience the most intutive Weather forecasting App</p>
+    </div>
+    <div class="end">
+        <img class="smedia" src="./Images/github-logo.png" alt="">
+        <img class="smedia" src="./Images/google.png" alt="">
+        <img class="smedia" src="./Images/insta.png" alt="">
+        <img class="smedia" src="./Images/linkedin.png" alt="">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

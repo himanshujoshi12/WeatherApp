@@ -1,0 +1,154 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+/* Main Header */
+.main_head {
+    text-align: center;
+    background-color: #5D9CA3;
+    height: 300px;
+}
+  
+.main_head img {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    opacity: 0.2;
+}
+  
+.main_head img:hover {
+    opacity: 1;
+}
+  
+.Weather {
+    background-color: black;
+    color: #9B5DE5;
+    width: 25%;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+}
+  
+  /* Container */
+.container {
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    background-color: #4D5E85;
+}
+input{
+    border-radius: 12px;
+    text-align: center;
+    outline: none;
+}
+button{
+    outline: none;
+    border-radius: 2px;
+}
+  
+  /* Card */
+#card {
+    justify-content: center;
+    background-color: #4D5E85;
+    display: none;
+}
+  
+.card_left,.card_right {
+    width: 200px;
+    height: 200px;
+    background-color: #566995;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    border-radius: 19%;
+}
+  
+.card_right {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+  
+.weathertemp {
+    width: 100px;
+    height: 100px;
+}
+.heading{
+    background-color: #4D5E85;
+    text-align: center;
+}
+/* Common Cities */
+.common_cities {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4D5E85;
+}
+  
+.Ccity {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    background-color: #566995;
+    margin: 12px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 12px;
+}
+  
+.Ccity:hover {
+    transform: scale(0.9);
+    transition: 0.5s ease;
+}
+  
+/* Footer */
+.foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4D5E85;
+}
+  
+.foot img {
+    width: 100px;
+    height: 100px;
+}
+  
+.end {
+    display: flex;
+    justify-content: center;
+    background-color: #4D5E85;
+}
+  
+.smedia {
+    width: 31px;
+    height: 32px;
+    margin: 7px 12px;
+}
+  
+@media screen and (max-width: 450px) {
+    /* Card */
+    #card {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+  
+    /* Common Cities */
+    .common_cities {
+      flex-direction: column;
+      align-items: center;
+    }
+    .Weather {
+        width: 40%;
+    }
+}
+  

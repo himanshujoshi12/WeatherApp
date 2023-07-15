@@ -51,7 +51,7 @@ const getWeather = (city, targetElementId) => {
           div.innerHTML = '';
 
           var img = document.createElement('img');
-          img.src = './Images/sun.png';
+          img.src = './images/sun.png';
           img.alt = 'Image description';
           img.width = 200;
           img.height = 150;
@@ -62,7 +62,7 @@ const getWeather = (city, targetElementId) => {
           var div = document.querySelector('.card_right');
           div.innerHTML = '';
           var img = document.createElement('img');
-          img.src = './Images/cloudy.png';
+          img.src = './images/cloudy.png';
           img.alt = 'Image description';
           img.width = 200;
           img.height = 150;
